@@ -1,4 +1,4 @@
-# Predicting-Spotify-Hits
+## Predicting-Spotify-Hits
 Objective :
 Predicting spotify hits using supervised machine learning algorithms 
 
