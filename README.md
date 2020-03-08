@@ -1,9 +1,9 @@
 # Predicting-Spotify-Hits
 
-#Objective :\
+# Objective :\
 Predicting spotify hits using supervised machine learning algorithms 
 
-#Context :\
+# Context :\
 Every music producer wants to put the track that has the best chance of becoming a hit at the first posoition of the album.
 But how do you know if the song has a chance of becoming a hit?
 
