@@ -21,12 +21,14 @@ The author's condition of a track being "No hit" is as follows:
 - The genre list for the particular decades are as follows:
 - The track must have 'US' as one of its markets.
 
-# Method 
-As we want to predict which class a track is part of which (hit or no hit), we will use classification algorithms.
-
 # Process
 - Data manipulation
 - Exploratory data analysis
 - Supervised learning
 - Supervised learning with PCA
 - Summary
+
+# Method 
+As we want to predict which class a track is part of which (hit or no hit), we will use classification algorithms.
+
+
