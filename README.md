@@ -1,7 +1,7 @@
 # Predicting-Spotify-Hits
 
 ## Objective 
-Predicting spotify hits using supervised machine learning algorithms 
+Predicting spotify hits using supervised machine learning algorithms (classificatin)
         
 ## Context 
 Every music producer wants to put the track that has the best chance of becoming a hit at the first posoition of the album.
@@ -21,10 +21,32 @@ The tracks are labeled '1' or '0' ('Hit' or 'No hit') depending on some criteria
 - Supervised learning with PCA
 - Summary
 
-## Method 
-As we want to predict which class a track is part of which (hit or no hit), we will use classification algorithms.
+## Exploraty data analysis
+<img src="https://github.com/abeliapetelle/Predicting-Spotify-Hits/blob/master/Media/Distribution.png" width="50%" height="50%">
+Compared to tracks that don’t became hits, the hits:
+• Have a higher level of danceability
+• Have a higher level of energy
+• Contain more vocals
+• Have a higher level of positiveness
+• Do not exceed 5min 33sec
+• Their chorus start earlier
+
+## Objective for modeling
+<img src="https://github.com/abeliapetelle/Predicting-Spotify-Hits/blob/master/Media/Objectives.png" width="50%" height="50%">
+The worst case for the client is to lose money. The main objective will be to decrease the False Positive and so the metric to increase is the precision score. 
+
+## Model comparison 
+<img src="https://github.com/abeliapetelle/Predicting-Spotify-Hits/blob/master/Media/Model%20comparison.png" width="50%" height="50%">
+Regarding the AUC score and the precision score, the best model to predict hits on Spotify is Catboost.
+
+## Features contribution 
+Features that have a high impact for predicting a hit with catboost model are the following:
+<img src="https://github.com/abeliapetelle/Predicting-Spotify-Hits/blob/master/Media/Featutes%20impact.png" width="50%" height="50%">
 
 ## Conclusion
+- With Catboost, we are able to predict the success of a track by 82%, which is not that bad but False Positive errors remain high.
+- This dataset brings together tracks of all styles, and from all eras but without specifying the genre, or year. With that kind of information, we could have specialized our model.
+- We have an universal model, necessarily moderately successful over the entire world music catalogue. 
 
 ## Built With
 * [Python](https://docs.python.org/3/) - The programming language used
