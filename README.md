@@ -21,7 +21,7 @@ The tracks are labeled '1' or '0' ('Hit' or 'No hit') depending on some criteria
 - Supervised learning with feature engineering (PCA)
 
 ## Exploraty data analysis
-<img src="https://github.com/abeliapetelle/Predicting-Spotify-Hits/blob/master/Media/Distribution.png" width="50%" height="50%">
+<img src="https://github.com/abeliapetelle/Predicting-Spotify-Hits/blob/master/Media/Distribution.png" width="60%" height="60%">
 Compared to tracks that don’t became hits, the hits:
 • Have a higher level of danceability
 • Have a higher level of energy
@@ -31,11 +31,11 @@ Compared to tracks that don’t became hits, the hits:
 • Their chorus start earlier
 
 ## Objective for modeling
-<img src="https://github.com/abeliapetelle/Predicting-Spotify-Hits/blob/master/Media/Objectives.png" width="50%" height="50%">
+<img src="https://github.com/abeliapetelle/Predicting-Spotify-Hits/blob/master/Media/Objectives.png" width="60%" height="60%">
 The worst case for the client is to lose money. The main objective will be to decrease the False Positive and so the metric to increase is the precision score. 
 
 ## Model comparison 
-<img src="https://github.com/abeliapetelle/Predicting-Spotify-Hits/blob/master/Media/Model%20comparison.png" width="50%" height="50%">
+<img src="https://github.com/abeliapetelle/Predicting-Spotify-Hits/blob/master/Media/Model%20comparison.png" width="80%" height="80%">
 Regarding the AUC score and the precision score, the best model to predict hits on Spotify is Catboost.
 
 ## Features contribution 
