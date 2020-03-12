@@ -1,7 +1,7 @@
 # Predicting-Spotify-Hits
 
 ## Objective 
-Predicting spotify hits using supervised machine learning algorithms (classificatin)
+Predicting spotify hits using supervised machine learning algorithms (classification).
         
 ## Context 
 Every music producer wants to put the track that has the best chance of becoming a hit at the first posoition of the album.
@@ -18,8 +18,7 @@ The tracks are labeled '1' or '0' ('Hit' or 'No hit') depending on some criteria
 - Data manipulation
 - Exploratory data analysis
 - Supervised learning
-- Supervised learning with PCA
-- Summary
+- Supervised learning with feature engineering (PCA)
 
 ## Exploraty data analysis
 <img src="https://github.com/abeliapetelle/Predicting-Spotify-Hits/blob/master/Media/Distribution.png" width="50%" height="50%">
@@ -56,4 +55,3 @@ Features that have a high impact for predicting a hit with catboost model are th
 * [Seaborn](https://seaborn.pydata.org/index.html) - Seaborn is a Python data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics.
 * [NumPy](https://numpy.org/) - NumPy is a library adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays. 
 * [SciPy](https://www.scipy.org/) - SciPy is an ecosystem of open-source software for mathematics, science, and engineering.
-
